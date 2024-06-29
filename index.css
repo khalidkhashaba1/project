@@ -123,6 +123,7 @@ header .header-content img{
 }
 .home .header-content .social a i:hover{
     transform: scale(0.85);
+    box-shadow: 0px 0px 20px 2px var(--secondary-color);
 }
 .btn-primary{
     background-color: var(--secondary-color);
@@ -135,6 +136,7 @@ header .header-content img{
 }
 .btn-primary:hover{
     background-color: #15a076;
+    box-shadow: 0px 0px 20px 2px var(--secondary-color);
 }
 #about{
     padding: 6rem 0;
@@ -201,15 +203,16 @@ header .header-content img{
     }
     header .header-content img{
         max-width: 350px;
-        margin: auto;
-        margin-top: 5rem;
+        margin:auto;
+        margin-top: 8rem;
     }
     .home .header-content h1{
         font-size: 50px;
         white-space: nowrap;
+        margin: 0 4%;
     }
     header{
-        height: 140vh;
+        height: 1000px;
     }
     #about .about-content {
         grid-template-columns: 1fr;
@@ -223,7 +226,7 @@ header .header-content img{
         margin: 0  25%;
     }
     .btn-primary{
-        margin: 0 138px;
+        margin: 0 35%;
     }
 }
 @media (max-width: 920px){
@@ -231,7 +234,7 @@ header .header-content img{
         margin-top: -1rem;
     }
     header{
-        height: 140vh;
+        height: 1000px;
     }
     .home .header-content p span{
         margin: 0 25%;
@@ -255,13 +258,13 @@ header .header-content img{
     header .header-content img{
         max-width: 350px;
         margin: auto;
-        margin-top: 5rem;
+        margin-top: 8rem;
     }
     .home .header-content h1{
         font-size: 50px;
     }
     header{
-        height: 140vh;
+        height: 1000px;
     }
     #about .about-content {
         grid-template-columns: 1fr;
@@ -273,9 +276,6 @@ header .header-content img{
     }
     .home .header-content p span{
         margin: 0  25%;
-    }
-    .btn-primary{
-        margin: 0 25%;
     }
 
 }
@@ -296,7 +296,7 @@ header .header-content img{
         text-align: center;
     }
     header{
-        height: 130vh;
+        height: 1000px;
     }
     .btn-primary{
         margin: 0 auto;
@@ -314,7 +314,7 @@ header .header-content img{
         max-width: 250px;
     }
     header{
-        height: 130vh;
+        height: 1000px;
     }
     .home .header-content .content-text{
         margin-top: -15.5rem;
@@ -322,6 +322,6 @@ header .header-content img{
 }
 @media(max-width : 580px){
     header{
-        height: 130vh;
+        height: 1000px;
     }
 }
